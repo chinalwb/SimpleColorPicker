@@ -85,6 +85,8 @@ ColorPickerListener mColorPickerListener = new ColorPickerListener() {
 
 4.6  Set the color to be checked: call `colorPickerView.setColor(selectedColor)`
 
+FYI: A sample usage in my project: [Android-Rich-text-Editor](https://github.com/chinalwb/Android-Rich-text-Editor)
+
 Todo:
 --------------
 Add Gradle support
