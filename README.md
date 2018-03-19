@@ -39,8 +39,11 @@ Add this `xmlns:colorPickerView="http://schemas.android.com/apk/res-auto"` to yo
 4. Customized attributes description:
 -----------------
 4.1  Set width & height: `colorPickerView:colorViewHeight="30dp"` and `colorPickerView:colorViewWidth="30dp"`
+
 4.2  Set margin left & right: `colorPickerView:colorViewMarginLeft="2dp"` and `colorPickerView:colorViewMarginRight="2dp"`, this will change the space between two color blocks
+
 4.3  Color block checked view: `colorPickerView:colorViewCheckedType="dot"`, there are two supported types now: `dot` and `checkMark`, each screenshot has been shown at top of this page. You can also call `colorPickerView.setCheckedView(view)` to set your own view for checked status
+
 4.4  The colors to be shown for user to pick: `colorPickerView:colors="@array/colorPickerColors"`, for example in colors.xml:
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -69,6 +72,7 @@ Add this `xmlns:colorPickerView="http://schemas.android.com/apk/res-auto"` to yo
     </array>
 </resources>
 ```
+
 4.5  Set color pick listener: call `colorPickerView.setColorPickerListener(colorPickerListener)`, and your callback function looks like: 
 ```
 ColorPickerListener mColorPickerListener = new ColorPickerListener() {
