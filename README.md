@@ -88,5 +88,7 @@ ColorPickerListener mColorPickerListener = new ColorPickerListener() {
 Todo:
 --------------
 Add Gradle support
+
 Add animation
+
 Add more layout styles
